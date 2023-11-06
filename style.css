@@ -1,1 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background: rgb(226, 255, 4);
+}
+h1 {
+  background: #000000;
+  font-size: 1.75rem;
+  text-align: center;
+  padding: 18px 0;
+  color: #fff;
+}
+.container {
+  gap: 35px;
+  padding: 15px;
+}
+.weather-input {
+  width: 550px;
+  margin: 25px 25px 50px 25px;
+}
+.weather-input input {
+  height: 46px;
+  width: 100%;
+  outline: none;
+  font-size: 1.010rem;
+  padding: 0 17px;
+  margin: 10px 0 20px 0;
+  border-radius: 4px;
+  text-align: center;
+  color: #ffffff;
+  background: #000000;
+  border: 1px solid rgb(0, 0, 0);
+}
 
+.weather-input button {
+  width: 100%;
+  padding: 10px 0;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #ffffff;
+  background: #000000;
+  transition: 0.2s ease;
+}
+.weather-input .search-btn:hover {
+  background: #6b7885;
+}
+.weather-data .current-weather {
+  color: #fff;
+  background: #000000;
+  border-radius: 15px;
+  padding: 50px 50px 50px 50px;
+  text-align: center;
+  justify-content: space-between;
+}
+.current-weather h2 {
+  font-weight: 600;
+  font-size: 1.7rem;
+}
+.weather-data h6 {
+  margin-top: 12px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.days-forecast .weather-cards {
+  display: flex;
+  gap: 20px;
+}
+.weather-cards .card {
+  color: #fff;
+  padding: 18px 16px;
+  width: calc(100% / 5);
+  background: #000000;
+  border-radius: 5px;
+  text-align: center;
+}
